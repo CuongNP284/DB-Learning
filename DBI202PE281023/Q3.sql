@@ -1,0 +1,1 @@
+select l.location_id, l.street_address, d.department_name, l.city from locations l full join departments d on l.location_id = d.location_id where d.department_name in ('IT', 'Marketing')

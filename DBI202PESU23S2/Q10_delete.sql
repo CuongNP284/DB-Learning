@@ -1,0 +1,2 @@
+delete from dependents where employee_id in (select e.employee_id from employees e where e.first_name = 'Alexander')
+select * from dependents where employee_id in (select e.employee_id from employees e where e.first_name = 'Alexander')

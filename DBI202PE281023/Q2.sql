@@ -1,0 +1,1 @@
+select e.employee_id, e.first_name, e.last_name from employees e where e.employee_id < 105

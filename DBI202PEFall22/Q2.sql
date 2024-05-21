@@ -1,0 +1,1 @@
+select s.StockItemID, s.StockItemName, s.SupplierID from StockItems s where s.Color = 'Blue'

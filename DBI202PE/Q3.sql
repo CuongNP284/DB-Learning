@@ -1,0 +1,1 @@
+﻿select p.ProductID, p.LocationID, p.Quantity from ProductInventory p where p.LocationID = 7 and p.Quantity > 250 order by p.Quantity DESC

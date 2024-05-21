@@ -1,0 +1,1 @@
+﻿select p.ProductID, p.Name, p.Color, p.Cost, p.Price, l.LocationID, l.Name, pr.Shelf, pr.Bin, pr.Quantity from ProductInventory pr full join Product p on p.ProductID = pr.ProductID full join Location l on pr.LocationID = l.LocationID where p.Color = 'Yellow' and p.Cost < 400
